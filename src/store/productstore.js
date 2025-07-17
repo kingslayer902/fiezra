@@ -1,3 +1,7 @@
+// Product data for Fiezra Appliances
+// image paths: place files in /public/  -> example: public/EC685M.jpg
+// badge values you can use: "Best Seller", "Promo", "" (or tambahin sendiri: "New", "PO", dll)
+
 export const products = [
   {
     id: 1,
@@ -6,6 +10,7 @@ export const products = [
     type: "BC0421.S",
     estPrice: 5590000,
     image: "BC0421S.jpg",
+    badge: "Promo",
   },
   {
     id: 2,
@@ -14,6 +19,7 @@ export const products = [
     type: "CGH1030D",
     estPrice: 5900000,
     image: "CGH1030D.jpg",
+    badge: "Best Seller",
   },
   {
     id: 3,
@@ -22,6 +28,7 @@ export const products = [
     type: "CTI2103.M",
     estPrice: 2000000,
     image: "CTI2103M.jpg",
+    badge: "",
   },
   {
     id: 4,
@@ -30,6 +37,7 @@ export const products = [
     type: "CTI2103.BK",
     estPrice: 2000000,
     image: "CTI2103BK.jpg",
+    badge: "",
   },
   {
     id: 5,
@@ -38,6 +46,7 @@ export const products = [
     type: "CTO2103.BG",
     estPrice: 1550000,
     image: "CTO2103BG.jpg",
+    badge: "Promo",
   },
   {
     id: 6,
@@ -46,6 +55,7 @@ export const products = [
     type: "CTO2103.GY",
     estPrice: 1550000,
     image: "CTO2103GY.jpg",
+    badge: "",
   },
   {
     id: 7,
@@ -54,6 +64,7 @@ export const products = [
     type: "EC685.BK",
     estPrice: 5240000,
     image: "EC685BK.jpg",
+    badge: "Best Seller",
   },
   {
     id: 8,
@@ -62,6 +73,7 @@ export const products = [
     type: "EC685.M",
     estPrice: 5240000,
     image: "EC685M.jpg",
+    badge: "",
   },
   {
     id: 9,
@@ -70,6 +82,7 @@ export const products = [
     type: "EC685.R",
     estPrice: 5240000,
     image: "EC685R.jpg",
+    badge: "",
   },
   {
     id: 10,
@@ -78,6 +91,7 @@ export const products = [
     type: "EC685.W",
     estPrice: 5200000,
     image: "EC685W.jpg",
+    badge: "Promo",
   },
   {
     id: 11,
@@ -86,6 +100,7 @@ export const products = [
     type: "EC785.GY",
     estPrice: 5200000,
     image: "EC785GY.jpg",
+    badge: "",
   },
   {
     id: 12,
@@ -94,6 +109,7 @@ export const products = [
     type: "EC802.BK",
     estPrice: 5200000,
     image: "EC802BK.jpg",
+    badge: "",
   },
   {
     id: 13,
@@ -102,6 +118,7 @@ export const products = [
     type: "EC860.M",
     estPrice: 7000000,
     image: "EC860M.jpg",
+    badge: "",
   },
   {
     id: 14,
@@ -110,6 +127,7 @@ export const products = [
     type: "EC885.BG",
     estPrice: 5500000,
     image: "EC885BG.jpg",
+    badge: "",
   },
   {
     id: 15,
@@ -118,6 +136,7 @@ export const products = [
     type: "EC885.M",
     estPrice: 5500000,
     image: "EC885M.jpg",
+    badge: "",
   },
   {
     id: 16,
@@ -126,6 +145,7 @@ export const products = [
     type: "EC9155.MB",
     estPrice: 12490000,
     image: "EC9155MB.jpg",
+    badge: "Best Seller",
   },
   {
     id: 17,
@@ -134,6 +154,7 @@ export const products = [
     type: "EC9335.M",
     estPrice: 19990000,
     image: "EC9335M.jpg",
+    badge: "Promo",
   },
   {
     id: 18,
@@ -142,6 +163,7 @@ export const products = [
     type: "ECAM22.110.B",
     estPrice: 12849000,
     image: "ECAM22110B.jpg",
+    badge: "",
   },
   {
     id: 19,
@@ -150,6 +172,7 @@ export const products = [
     type: "ECAM22.110.SB",
     estPrice: 12950000,
     image: "ECAM22110SB.jpg",
+    badge: "",
   },
   {
     id: 20,
@@ -158,6 +181,7 @@ export const products = [
     type: "ECAM250.33.TB",
     estPrice: 16500000,
     image: "ECAM25033TB.jpg",
+    badge: "",
   },
   {
     id: 21,
@@ -166,6 +190,7 @@ export const products = [
     type: "ECAM290.31.SB",
     estPrice: 17400000,
     image: "ECAM29031SB.jpg",
+    badge: "",
   },
   {
     id: 22,
@@ -174,6 +199,7 @@ export const products = [
     type: "ECAM350.55.SB",
     estPrice: 25490000,
     image: "ECAM35055SB.jpg",
+    badge: "Best Seller",
   },
   {
     id: 23,
@@ -182,6 +208,7 @@ export const products = [
     type: "ECAM650.85.MS",
     estPrice: 46490000,
     image: "ECAM65085MS.jpg",
+    badge: "Premium",
   },
   {
     id: 24,
@@ -190,6 +217,7 @@ export const products = [
     type: "ECOV311.BG",
     estPrice: 4990000,
     image: "ECOV311BG.jpg",
+    badge: "",
   },
   {
     id: 25,
@@ -198,6 +226,7 @@ export const products = [
     type: "ECOV311.GR",
     estPrice: 4990000,
     image: "ECOV311GR.jpg",
+    badge: "",
   },
   {
     id: 26,
@@ -206,6 +235,7 @@ export const products = [
     type: "ECP33.21",
     estPrice: 3990000,
     image: "ECP3321.jpg",
+    badge: "Promo",
   },
   {
     id: 27,
@@ -214,6 +244,7 @@ export const products = [
     type: "ECP35.31",
     estPrice: 3690000,
     image: "ECP3531.jpg",
+    badge: "",
   },
   {
     id: 28,
@@ -222,6 +253,7 @@ export const products = [
     type: "EMF2.W",
     estPrice: 1650000,
     image: "EMF2W.jpg",
+    badge: "",
   },
   {
     id: 29,
@@ -230,6 +262,7 @@ export const products = [
     type: "EMKP63.B",
     estPrice: 2150000,
     image: "EMKP63B.jpg",
+    badge: "",
   },
   {
     id: 30,
@@ -238,6 +271,7 @@ export const products = [
     type: "EO32852",
     estPrice: 3950000,
     image: "EO32852.jpg",
+    badge: "",
   },
   {
     id: 31,
@@ -246,6 +280,7 @@ export const products = [
     type: "FH1394",
     estPrice: 4300000,
     image: "FH1394.jpg",
+    badge: "",
   },
   {
     id: 32,
@@ -254,6 +289,7 @@ export const products = [
     type: "FH2394.BK",
     estPrice: 3300000,
     image: "FH2394BK.jpg",
+    badge: "Promo",
   },
   {
     id: 33,
@@ -262,5 +298,6 @@ export const products = [
     type: "ICM12011.BK",
     estPrice: 1190000,
     image: "ICM12011BK.jpg",
+    badge: "",
   },
-];
+]
